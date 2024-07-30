@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name    EnginesOnGoogle
-// @match   https://www.google.com/search*
 // @description Adds icons to Google results for quick access to other search engines and resources.
+// @match   https://www.google.com/search*
 // ==/UserScript==
 
 (function() {
