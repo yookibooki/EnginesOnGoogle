@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name    EnginesOnGoogle
-// @match   https://www.google.com/search?q=*
+// @match   https://www.google.com/search*
 // ==/UserScript==
 
 (function() {
