@@ -23,6 +23,7 @@
         {n:'Quora',u:'https://www.quora.com/search?q=',i:'https://www.quora.com/favicon.ico'},
         {n:'GitHub',u:'https://github.com/search?q=',i:'https://github.com/favicon.ico'},
         {n:'Stack Overflow',u:'https://stackoverflow.com/search?q=',i:'https://stackoverflow.com/favicon.ico'},
+        {n:'Startpage',u:'https://www.startpage.com/do/search?q=',i:'https://www.startpage.com/favicon.ico'},
         {n:'Brave Search',u:'https://search.brave.com/search?q=',i:'https://www.google.com/s2/favicons?domain=search.brave.com&sz=32'},
         {n:'Qwant',u:'https://www.qwant.com/?q=',i:'https://www.qwant.com/favicon.ico'},
         {n:'Scientific American',u:'https://www.scientificamerican.com/search/?q=',i:'https://www.scientificamerican.com/favicon.ico'},
