@@ -32,7 +32,6 @@
         {n:'Internet Archive',u:'https://archive.org/search.php?query=',i:'https://archive.org/favicon.ico'},
         {n:'Open Library',u:'https://openlibrary.org/search?q=',i:'https://openlibrary.org/favicon.ico'},
         {n:'Libgen',u:'http://libgen.rs/search.php?req=',i:'http://libgen.rs/favicon.ico'},
-        {n:'WorldCat',u:'https://search.worldcat.org/search?q=',i:'https://www.google.com/s2/favicons?domain=worldcat.org&sz=32'},
         {n:'LibraryThing',u:'https://www.librarything.com/searchers/?q=',i:'https://www.librarything.com/favicon.ico'},
         {n:'Europeana',u:'https://www.europeana.eu/en/search?query=',i:'https://www.google.com/s2/favicons?domain=europeana.eu&sz=32'},
         {n:'Digital Public Library of America',u:'https://dp.la/search?q=',i:'https://www.google.com/s2/favicons?domain=dp.la&sz=32'}
@@ -46,13 +45,7 @@
         container.style.margin='10px 0';
         searchEngines.forEach(engine=>{
             const a=document.createElement('a');
-            if (engine.n === 'WorldCat') {
-                // Replace spaces with '+' and add '&offset=1' for WorldCat
-                const formattedQuery = encodeURIComponent(q).replace(/%20/g, '+') + '+&offset=1';
-                a.href=`${engine.u}${formattedQuery}`;
-            } else {
-                a.href=`${engine.u}${encodeURIComponent(q)}`;
-            }
+            a.href=`${engine.u}${encodeURIComponent(q)}`;
             a.target='_blank';
             const img=document.createElement('img');
             img.src=engine.i;
