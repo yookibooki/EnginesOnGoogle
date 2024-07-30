@@ -1,6 +1,9 @@
 // ==UserScript==
 // @name    EnginesOnGoogle
 // @match   https://www.google.com/search*
+// @version 0.0.1.20240730085802
+// @namespace https://greasyfork.org/users/1342408
+// @description Adds icons to Google results for quick access to other search engines and resources.
 // ==/UserScript==
 
 (function() {
