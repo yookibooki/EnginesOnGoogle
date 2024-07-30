@@ -26,7 +26,7 @@
         {n:'Startpage',u:'https://www.startpage.com/do/search?q=',i:'https://www.startpage.com/favicon.ico'},
         {n:'Brave Search',u:'https://search.brave.com/search?q=',i:'https://www.google.com/s2/favicons?domain=search.brave.com&sz=32'},
         {n:'Qwant',u:'https://www.qwant.com/?q=',i:'https://www.qwant.com/favicon.ico'},
-        {n:'LibGen',u:'https://libgen.is/search.php?req=',i:'https://libgen.is/favicon.ico'}
+        {n:'LibGen',u:'https://libgen.is/search.php?req=',i:'https://libgen.is/favicon.ico'},
         {n:'JSTOR',u:'https://www.jstor.org/action/doBasicSearch?Query=',i:'https://www.jstor.org/favicon.ico'},
         {n:'IEEE Xplore',u:'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=',i:'https://www.google.com/s2/favicons?domain=ieeexplore.ieee.org&sz=32'},
         {n:'Internet Archive',u:'https://archive.org/search.php?query=',i:'https://archive.org/favicon.ico'},
