@@ -8,7 +8,7 @@
     'use strict';
 
     const searchEngines=[
-        {n:'Yandex',u:'https://yandex.com/search/?text=',i:'https://yandex.com/favicon.ico'},
+        {n:'Yandex',u:'https://ya.ru/search/?text=',i:'https://ya.ru/favicon.ico'},
         {n:'Bing',u:'https://www.bing.com/search?q=',i:'https://www.bing.com/favicon.ico'},
         {n:'DuckDuckGo',u:'https://duckduckgo.com/?q=',i:'https://www.duckduckgo.com/favicon.ico'},
         {n:'Startpage',u:'https://www.startpage.com/do/search?q=',i:'https://www.startpage.com/favicon.ico'},
