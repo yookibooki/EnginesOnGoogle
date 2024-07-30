@@ -47,7 +47,6 @@
         container.style.margin='10px 0';
         searchEngines.forEach(engine=>{
             const a=document.createElement('a');
-            const query = engine.n === 'WorldCat' ? q.replace(/%20/g, '+') : q;
             a.href=`${engine.u}${encodeURIComponent(q)}`;
             a.target='_blank';
             const img=document.createElement('img');
