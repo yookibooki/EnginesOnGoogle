@@ -29,10 +29,7 @@
         {n:'LibGen',u:'https://libgen.is/search.php?req=',i:'https://libgen.is/favicon.ico'}
         {n:'JSTOR',u:'https://www.jstor.org/action/doBasicSearch?Query=',i:'https://www.jstor.org/favicon.ico'},
         {n:'IEEE Xplore',u:'https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=',i:'https://www.google.com/s2/favicons?domain=ieeexplore.ieee.org&sz=32'},
-        {n:'PubChem',u:'https://pubchem.ncbi.nlm.nih.gov/search/?term=',i:'https://pubchem.ncbi.nlm.nih.gov/favicon.ico'},
-        {n:'Google Books',u:'https://books.google.com/books?q=',i:'https://books.google.com/favicon.ico'},
         {n:'Internet Archive',u:'https://archive.org/search.php?query=',i:'https://archive.org/favicon.ico'},
-        {n:'Project Gutenberg',u:'https://www.gutenberg.org/ebooks/search/?query=',i:'https://www.gutenberg.org/favicon.ico'},
         {n:'Open Library',u:'https://openlibrary.org/search?q=',i:'https://openlibrary.org/favicon.ico'},
         {n:'Libgen',u:'http://libgen.rs/search.php?req=',i:'http://libgen.rs/favicon.ico'},
         {n:'WorldCat',u:'https://www.worldcat.org/search?q=',i:'https://www.google.com/s2/favicons?domain=worldcat.org&sz=32'},
@@ -50,6 +47,7 @@
         container.style.margin='10px 0';
         searchEngines.forEach(engine=>{
             const a=document.createElement('a');
+            const query = engine.n === 'WorldCat' ? q.replace(/%20/g, '+') : q;
             a.href=`${engine.u}${encodeURIComponent(q)}`;
             a.target='_blank';
             const img=document.createElement('img');
