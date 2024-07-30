@@ -14,7 +14,7 @@
         {n:'Ecosia',u:'https://www.ecosia.org/search?q=',i:'https://www.ecosia.org/favicon.ico'},
         {n:'Ask',u:'https://www.ask.com/web?q=',i:'https://www.ask.com/favicon.ico'},
         {n:'Reddit',u:'https://www.reddit.com/search?q=',i:'https://www.reddit.com/favicon.ico'},
-        {n:'Medium',u:'https://medium.com/search?q=',i:'https://medium.com/favicon.ico'},
+        {n:'Medium',u:'https://medium.com/search?q=',i:'https://www.google.com/s2/favicons?domain=medium.com&sz=32'},
         {n:'Wikipedia',u:'https://en.wikipedia.org/wiki/Special:Search?search=',i:'https://en.wikipedia.org/favicon.ico'},
         {n:'Searx',u:'https://searx.org/search?q=',i:'https://searx.org/favicon.ico'},
         {n:'Yahoo',u:'https://search.yahoo.com/search?p=',i:'https://www.yahoo.com/favicon.ico'},
