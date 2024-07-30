@@ -32,9 +32,8 @@
         {n:'Internet Archive',u:'https://archive.org/search.php?query=',i:'https://archive.org/favicon.ico'},
         {n:'Open Library',u:'https://openlibrary.org/search?q=',i:'https://openlibrary.org/favicon.ico'},
         {n:'Libgen',u:'http://libgen.rs/search.php?req=',i:'http://libgen.rs/favicon.ico'},
-        {n:'WorldCat',u:'https://www.worldcat.org/search?q=',i:'https://www.google.com/s2/favicons?domain=worldcat.org&sz=32'},
+        {n:'WorldCat',u:'https://search.worldcat.org/search?q=',i:'https://www.google.com/s2/favicons?domain=worldcat.org&sz=32'},
         {n:'LibraryThing',u:'https://www.librarything.com/searchers/?q=',i:'https://www.librarything.com/favicon.ico'},
-        {n:'OAIster',u:'https://oaister.worldcat.org/search?q=',i:'https://www.google.com/s2/favicons?domain=oaister.worldcat.org&sz=32'},
         {n:'Europeana',u:'https://www.europeana.eu/en/search?query=',i:'https://www.google.com/s2/favicons?domain=europeana.eu&sz=32'},
         {n:'Digital Public Library of America',u:'https://dp.la/search?q=',i:'https://www.google.com/s2/favicons?domain=dp.la&sz=32'}
     ];
