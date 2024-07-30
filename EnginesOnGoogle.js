@@ -47,7 +47,13 @@
         container.style.margin='10px 0';
         searchEngines.forEach(engine=>{
             const a=document.createElement('a');
-            a.href=`${engine.u}${encodeURIComponent(q)}`;
+            if (engine.n === 'WorldCat') {
+                // Replace spaces with '+' and add '&offset=1' for WorldCat
+                const formattedQuery = encodeURIComponent(q).replace(/%20/g, '+') + '+&offset=1';
+                a.href=`${engine.u}${formattedQuery}`;
+            } else {
+                a.href=`${engine.u}${encodeURIComponent(q)}`;
+            }
             a.target='_blank';
             const img=document.createElement('img');
             img.src=engine.i;
