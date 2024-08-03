@@ -14,7 +14,7 @@
         {n:'Startpage',u:'https://www.startpage.com/do/search?q=',i:'https://www.startpage.com/favicon.ico'},
         {n:'Brave Search',u:'https://search.brave.com/search?q=',i:'https://www.google.com/s2/favicons?domain=search.brave.com&sz=32'},
         {n:'Qwant',u:'https://www.qwant.com/?q=',i:'https://www.qwant.com/favicon.ico'},
-        {n:'Searx',u:'https://searx.org/search?q=',i:'https://searx.org/favicon.ico'},
+        {n:'Searx',u:'https://search.inetol.net/search?q=',i:'https://search.inetol.net/favicon.ico'},
         {n:'Yahoo',u:'https://search.yahoo.com/search?p=',i:'https://www.yahoo.com/favicon.ico'},
         {n:'Perplexity',u:'https://www.perplexity.ai/search?q=',i:'https://www.google.com/s2/favicons?domain=perplexity.ai&sz=32'},
         {n:'Ecosia',u:'https://www.ecosia.org/search?q=',i:'https://www.ecosia.org/favicon.ico'},
